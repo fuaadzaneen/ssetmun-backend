@@ -32,7 +32,7 @@ app.get('/api/committee', async (req, res) => {
     });
   }
 
-  const GAS_URL = 'https://script.google.com/macros/s/AKfycbyBFaYMrQHyT9dy6mXAvr29sgdf26txG2EvzAuH4jXK_i9NQaPEmmFrFZzWN__roYXY/exec';
+  const GAS_URL = 'https://script.google.com/macros/s/AKfycbw8m9I8rFeUK6dZJTsAl31IjWuMn1shA9kjYi7Ytf-dKPYe6z-0Zn-D24C7MkNINsv3/exec';
   const url = `${GAS_URL}?committee=${encodeURIComponent(committee)}`;
 
   try {
